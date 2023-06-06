@@ -5,15 +5,16 @@ using UnityEngine;
 [System.Serializable]
 public class GuardDeployment 
 {
-    
-    public string CONTAINER { get; set; }   
-    public string CONTAINERPHONENO { get; set; }
-    public string PHONETYPE { get; set; }
-    public string PHONESPECS { get; set; }
-    public string CAMERASPECS { get; set; }
-    public string ANDROIDVERSION { get; set; }
-    public string REGION { get; set; }
-    public string LOCATIONLATITUDELONGTUDE { get; set; }
-    public string EMPLOYEENO { get; set; }
+    public string CONTAINER;
+    public string CONTAINERPHONENO;
+    public string PHONETYPE;
+    public string SPECS;
+    public string CAMERASPECS;
+    public int ANDROIDVERSION;
+    public string REGION;
+    public double LATITUDE;
+    public double LONGTUDE;
+    public string EMPLOYEE1;
+    public string EMPLOYEE2;
 
 }

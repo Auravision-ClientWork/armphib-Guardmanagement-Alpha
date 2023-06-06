@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "510784051252",
+    "firebase_url": "https://armphibfirebaselinkup-default-rtdb.firebaseio.com",
+    "project_id": "armphibfirebaselinkup",
+    "storage_bucket": "armphibfirebaselinkup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510784051252:android:7600ee4d35d24796ddd261",
+        "android_client_info": {
+          "package_name": "com.Auravision.Admin_GuardManagement_Alpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510784051252-gk72tgs1jc3aekbsjsui19q9uat99bt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB59R9D_pIr7j2iPCHXHzuH8Y04AARX9IY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510784051252-gk72tgs1jc3aekbsjsui19q9uat99bt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

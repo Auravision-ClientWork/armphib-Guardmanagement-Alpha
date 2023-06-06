@@ -7,15 +7,15 @@ public class LandingPageBackend : MonoBehaviour
     private void Start()
     {
         var user = new User("dmikala");
-        Debug.Log(JsonUtility.ToJson(user));   
-    }
-}
-class User
-{
-    public string password;
 
-    public User(string _pass)
+    }
+    class User
     {
-        password = _pass;
+        public string password;
+
+        public User(string _pass)
+        {
+            password = _pass;
+        }
     }
 }
