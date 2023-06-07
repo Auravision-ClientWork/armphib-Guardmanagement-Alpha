@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Aura/Scenes/Landing.unity
-    guid: 8824763c6b774d743ac613294eac15db
+    path: Assets/_Aura/Scenes/Deployments.unity
+    guid: 86da72109884f9a4d839018e9fb88689
   m_configObjects: {}
