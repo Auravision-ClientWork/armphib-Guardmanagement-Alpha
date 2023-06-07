@@ -24,6 +24,7 @@ public class DeploymentsViewPageBackend : MonoBehaviour
         {
             itemObj = Instantiate(deploymentViewItem);
             itemObj.transform.SetParent(deploymentViewItemHolder, false);
+            itemObj.GetComponent<DeploymentsItem>().SetUp(deployment);
         }
         loadDeploymentsButton.SetActive(false);
 

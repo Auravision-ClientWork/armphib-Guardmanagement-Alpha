@@ -121,6 +121,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f73a09901a1d0a49b9f53cce4d9a096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  containerTxt: {fileID: 6002291406158163343}
+  emp1NumberTxt: {fileID: 6002291405545115810}
+  emp2NumberTxt: {fileID: 6002291405072627579}
+  goToLocationBtn: {fileID: 6002291406127058172}
+  goToDialerBtn: {fileID: 6002291405245017536}
 --- !u!1 &6002291404395018723
 GameObject:
   m_ObjectHideFlags: 0
