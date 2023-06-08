@@ -4,6 +4,7 @@ using UnityEngine;
 using Firebase.Database;
 using SimpleJSON;
 using System;
+using AndroidGoodiesExamples;
 
 public class FirebaseManager : MonoBehaviour
 {
@@ -25,6 +26,8 @@ public class FirebaseManager : MonoBehaviour
             deployments.Add(newGuard);
             containerRegions.Add(newGuard.CONTAINER);
         }
+
+       
     }
 
     private void OnEnable()

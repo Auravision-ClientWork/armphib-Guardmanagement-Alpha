@@ -21,6 +21,8 @@ public class DeploymentsItem : MonoBehaviour
         emp2NumberTxt.text = guardData.EMPLOYEE2;
 
         goToDialerBtn.onClick.AddListener(() => DialContainer(guardData.CONTAINERPHONENO));
+        goToLocationBtn.onClick.AddListener(() => GoToContainerLocation(guardData.LATITUDE,
+            guardData.LONGTUDE, guardData.CONTAINER));
     }
 
     private void DialContainer(string _number)
@@ -28,5 +30,12 @@ public class DeploymentsItem : MonoBehaviour
         var newNumber = "0" + _number;
         var number = int.Parse(newNumber);
         AGDialer.OpenDialer(newNumber);
+    }
+    private void GoToContainerLocation(string _lat,string _lng,string _label)
+    {
+        var latitude = float.Parse(_lat);
+        var longitude = float.Parse(_lng);
+        AGMaps.OpenMapLocationWithLabel(latitude, longitude, _label);
+
     }
 }
